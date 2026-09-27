@@ -1,58 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Louisss">
-  <defs>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="6" result="b1"/>
-      <feGaussianBlur stdDeviation="2" result="b2"/>
-      <feMerge>
-        <feMergeNode in="b1"/>
-        <feMergeNode in="b2"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <pattern id="scan" width="1" height="4" patternUnits="userSpaceOnUse">
-      <rect width="1" height="1.6" fill="#00FF41" fill-opacity="0.055"/>
-    </pattern>
-
-    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#00FF41" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00FF41" stop-opacity="0.13"/>
-      <stop offset="100%" stop-color="#00FF41" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#000000"/>
-      <stop offset="6%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="94%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000"/>
-    </linearGradient>
-  </defs>
-
-  <!-- pure black -->
-  <rect width="900" height="300" fill="#000000"/>
-
-  <!-- CRT scanline texture -->
-  <rect width="900" height="300" fill="url(#scan)"/>
-
-  <!-- subtle vignette -->
-  <rect width="900" height="300" fill="url(#fade)"/>
-
-  <!-- travelling scan band (CRT sweep) -->
-  <rect x="0" y="-70" width="900" height="70" fill="url(#band)">
-    <animate attributeName="y" values="-70;300" dur="5.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- terminal prompt (top-left, dim green) -->
-  <text x="60" y="66" font-family="Consolas, 'Courier New', monospace" font-size="14.5"
-        fill="#00B32C" letter-spacing="1">louisss@github:~$</text>
-
-  <!-- headline -->
-  <text x="60" y="196" font-family="'Courier New', Consolas, monospace" font-size="60"
-        font-weight="700" fill="#00FF41" filter="url(#glow)" letter-spacing="4">LOUISSS</text>
-
-  <!-- blinking block cursor -->
-  <rect x="330" y="148" width="8" height="52" fill="#00FF41" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1"
-             dur="1.06s" repeatCount="indefinite"/>
-  </rect>
+<defs>
+<pattern id="scan" width="1" height="4" patternUnits="userSpaceOnUse">
+<rect width="1" height="1.6" fill="#00FF41" fill-opacity="0.05"/>
+</pattern>
+<linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#00FF41" stop-opacity="0"/>
+<stop offset="50%" stop-color="#00FF41" stop-opacity="0.12"/>
+<stop offset="100%" stop-color="#00FF41" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="900" height="300" fill="#000000"/>
+<rect width="900" height="300" fill="url(#scan)"/>
+<rect x="0" y="-64" width="900" height="64" fill="url(#band)">
+<animate attributeName="y" values="-64;300" dur="6s" repeatCount="indefinite"/>
+</rect>
+<text x="60" y="62" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#00B32C" letter-spacing="1">louisss@github:~$</text>
+<text x="97" y="104" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41"> _       ___   _   _  ___    ____   ____   ____  </text>
+<text x="97" y="134" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41">| |     / _ \ | | | ||_ _|  / ___| / ___| / ___| </text>
+<text x="97" y="164" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41">| |    | | | || | | | | |   \___ \ \___ \ \___ \ </text>
+<text x="97" y="194" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41">| |___ | |_| || |_| | | |    ___) | ___) | ___) |</text>
+<text x="97" y="224" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41">|_____| \___/  \___/ |___|  |____/ |____/ |____/ </text>
+<rect x="445" y="244" width="10" height="20" fill="#00FF41"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/></rect>
 </svg>
