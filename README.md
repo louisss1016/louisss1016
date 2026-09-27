@@ -1,14 +1,18 @@
 <div align="center">
 
-<img src="assets/terminal-banner.svg" alt="terminal" width="820"/>
+<img src="assets/terminal-banner.svg" alt="terminal" width="820" height="273"/>
 
-<br/>
+<br/><br/>
 
 <i>build quietly, ship often.</i>
 
 <br/><br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=louisss1016&show_icons=true&hide_border=true&title_color=E0A458&icon_color=E0A458&text_color=C9D1D9&bg_color=0D1117&include_all_commits=true&count_private=true"/>
+<code>
+<img src="https://img.shields.io/badge/repos-15-E0A458?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/commits-all--year-E0A458?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/location-Xiamen-E0A458?style=flat-square&labelColor=0D1117"/>
+</code>
 
 <br/><br/>
 
