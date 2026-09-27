@@ -1,29 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="86" viewBox="0 0 900 86" role="img" aria-label="Thanks for visiting">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="72" viewBox="0 0 900 72" role="img" aria-label="footer">
   <defs>
-    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#080C18"/>
-      <stop offset="50%" stop-color="#4F46E5"/>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#818CF8"/>
       <stop offset="100%" stop-color="#22D3EE"/>
     </linearGradient>
   </defs>
 
-  <rect width="900" height="86" fill="url(#fg)"/>
+  <rect width="900" height="72" fill="#0A0B10"/>
 
-  <g stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="1">
-    <line x1="0" y1="86" x2="900" y2="86"/>
-  </g>
+  <rect x="0" y="0" width="900" height="1.5" fill="url(#rule)" opacity="0.75">
+    <animate attributeName="opacity" values="0.25;0.85;0.25" dur="6s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- travelling dots -->
-  <g fill="#FFFFFF" fill-opacity="0.55">
-    <circle cx="30" cy="66" r="2.5">
-      <animate attributeName="cx" values="10;890;10" dur="14s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="30" cy="66" r="2">
-      <animate attributeName="cx" values="890;10;890" dur="18s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <text x="0" y="42" font-family="Consolas, Monaco, monospace" font-size="12.5" fill="#475569" letter-spacing="2.6">DESIGNED &amp; BUILT BY LOUISSS</text>
 
-  <text x="450" y="46" text-anchor="middle"
-        font-family="PingFang SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif"
-        font-size="21" font-weight="700" fill="#FFFFFF">Thanks for visiting  ·  欢迎交流 AI Agent 工程化</text>
+  <text x="900" y="42" text-anchor="end" font-family="Consolas, Monaco, monospace" font-size="12.5" fill="#475569" letter-spacing="2.6">XIAMEN · CN</text>
 </svg>
