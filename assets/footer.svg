@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="86" viewBox="0 0 900 86" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#080C18"/>
+      <stop offset="50%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="86" fill="url(#fg)"/>
+
+  <g stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="1">
+    <line x1="0" y1="86" x2="900" y2="86"/>
+  </g>
+
+  <!-- travelling dots -->
+  <g fill="#FFFFFF" fill-opacity="0.55">
+    <circle cx="30" cy="66" r="2.5">
+      <animate attributeName="cx" values="10;890;10" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="30" cy="66" r="2">
+      <animate attributeName="cx" values="890;10;890" dur="18s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="450" y="46" text-anchor="middle"
+        font-family="PingFang SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="21" font-weight="700" fill="#FFFFFF">Thanks for visiting  ·  欢迎交流 AI Agent 工程化</text>
+</svg>
