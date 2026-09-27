@@ -1,84 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Louisss - Java / Python 双栈后端 · AI Agent 工程化">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Louisss — Backend and AI Agent Engineer">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080C18"/>
-      <stop offset="50%" stop-color="#4F46E5"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="55%" stop-color="#6366F1"/>
       <stop offset="100%" stop-color="#22D3EE"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#C7D2FE"/>
-      <stop offset="100%" stop-color="#67E8F9"/>
+    <linearGradient id="vignette" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0A0B10"/>
+      <stop offset="100%" stop-color="#0A0B10" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="900" height="280" fill="url(#bg)"/>
+  <rect width="900" height="300" fill="#0A0B10"/>
 
-  <!-- grid -->
-  <g stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1">
-    <line x1="110" y1="0" x2="110" y2="280"/>
-    <line x1="220" y1="0" x2="220" y2="280"/>
-    <line x1="330" y1="0" x2="330" y2="280"/>
-    <line x1="440" y1="0" x2="440" y2="280"/>
-    <line x1="550" y1="0" x2="550" y2="280"/>
-    <line x1="660" y1="0" x2="660" y2="280"/>
-    <line x1="770" y1="0" x2="770" y2="280"/>
-    <line x1="880" y1="0" x2="880" y2="280"/>
-    <line x1="0" y1="70" x2="900" y2="70"/>
-    <line x1="0" y1="140" x2="900" y2="140"/>
-    <line x1="0" y1="210" x2="900" y2="210"/>
+  <!-- faint vertical rule grid -->
+  <g stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1">
+    <line x1="150" y1="0" x2="150" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="450" y1="0" x2="450" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/>
+    <line x1="0" y1="150" x2="900" y2="150" stroke-opacity="0.03"/>
   </g>
 
-  <!-- sweeping light -->
-  <rect x="-260" y="0" width="260" height="280" fill="url(#sweep)">
-    <animate attributeName="x" values="-260;900" dur="7s" repeatCount="indefinite"/>
-  </rect>
+  <!-- agent network: nodes + flowing edges -->
+  <g fill="none" stroke="#6366F1" stroke-opacity="0.42" stroke-width="1">
+    <path d="M648,86 L772,132" stroke-dasharray="3 7">
+      <animate attributeName="stroke-dashoffset" values="0;-30" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M772,132 L706,196" stroke-dasharray="3 7">
+      <animate attributeName="stroke-dashoffset" values="0;-30" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M648,86 L628,164" stroke-dasharray="3 7">
+      <animate attributeName="stroke-dashoffset" values="0;-30" dur="3.1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M628,164 L706,196" stroke-dasharray="3 7">
+      <animate attributeName="stroke-dashoffset" values="0;-30" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M772,132 L842,92" stroke-dasharray="3 7">
+      <animate attributeName="stroke-dashoffset" values="0;-30" dur="3.7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M842,92 L862,168" stroke-dasharray="3 7">
+      <animate attributeName="stroke-dashoffset" values="0;-30" dur="3.0s" repeatCount="indefinite"/>
+    </path>
+    <path d="M862,168 L706,196" stroke-dasharray="3 7">
+      <animate attributeName="stroke-dashoffset" values="0;-30" dur="3.3s" repeatCount="indefinite"/>
+    </path>
+  </g>
 
-  <!-- orbiting rings -->
-  <g transform="translate(806,86)" fill="none" stroke="#FFFFFF">
-    <circle r="52" stroke-opacity="0.16" stroke-width="1.5"/>
-    <circle r="34" stroke-opacity="0.26" stroke-width="1.5"/>
-    <circle r="18" stroke-opacity="0.38" stroke-width="1.5"/>
-    <g>
-      <circle cx="52" cy="0" r="4.5" fill="#67E8F9" stroke="none" filter="url(#glow)"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <circle cx="-34" cy="0" r="3.2" fill="#C7D2FE" stroke="none"/>
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="6s" repeatCount="indefinite"/>
-    </g>
-    <circle r="6" fill="#FFFFFF" fill-opacity="0.9" stroke="none">
-      <animate attributeName="r" values="5;7.5;5" dur="3s" repeatCount="indefinite"/>
+  <g fill="#22D3EE">
+    <circle cx="648" cy="86" r="3.4" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="772" cy="132" r="4.2" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.1s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="706" cy="196" r="3.4" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.6s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="628" cy="164" r="2.8" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.4;0.95;0.4" dur="2.9s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="842" cy="92" r="2.8" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.4;0.95;0.4" dur="3.8s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="862" cy="168" r="3.4" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3.4s" begin="0.9s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- waves -->
-  <g>
-    <path d="M0,198 C110,238 220,158 330,198 C440,238 550,158 660,198 C770,238 880,158 990,198 C1100,238 1210,158 1320,198 C1430,238 1540,158 1650,198 L1650,280 L0,280 Z"
-          fill="#080C18" fill-opacity="0.30">
-      <animateTransform attributeName="transform" type="translate" values="0,0; -660,0" dur="16s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,222 C110,258 220,186 330,222 C440,258 550,186 660,222 C770,258 880,186 990,222 C1100,258 1210,186 1320,222 C1430,258 1540,186 1650,222 L1650,280 L0,280 Z"
-          fill="#080C18" fill-opacity="0.55">
-      <animateTransform attributeName="transform" type="translate" values="-660,0; 0,0" dur="12s" repeatCount="indefinite"/>
-    </path>
+  <g fill="none" stroke="#22D3EE" stroke-opacity="0.22" stroke-width="1">
+    <circle cx="772" cy="132" r="13"/>
+    <circle cx="648" cy="86" r="10"/>
+    <circle cx="706" cy="196" r="10"/>
   </g>
 
-  <!-- identity -->
-  <text x="56" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#FFFFFF" letter-spacing="2">Louisss</text>
-  <text x="58" y="150" font-family="PingFang SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="url(#accent)">Java / Python 双栈后端 · AI Agent 工程化</text>
-  <text x="58" y="178" font-family="Consolas, Monaco, monospace" font-size="15" fill="#CBD5E1" fill-opacity="0.88">Backend Engineer  ×  Multi-Agent Systems  ×  LLM in Production</text>
+  <!-- identity block -->
+  <text x="56" y="94" font-family="Consolas, Monaco, monospace" font-size="12" fill="#818CF8" letter-spacing="4.5">BACKEND · AI AGENT ENGINEER</text>
 
-  <!-- accent bar (left of identity block) -->
-  <rect x="38" y="60" width="4" height="0" rx="2" fill="#67E8F9">
-    <animate attributeName="height" values="0;66" dur="1.6s" fill="freeze"/>
+  <text x="56" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="#F8FAFC" letter-spacing="1">Louisss</text>
+
+  <text x="58" y="192" font-family="PingFang SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#94A3B8">Java / Python 双栈后端 · AI Agent 工程化</text>
+
+  <text x="58" y="220" font-family="PingFang SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" fill="#64748B">把 Agent 做成能上线的系统，而不是能跑的 demo</text>
+
+  <text x="58" y="246" font-family="Consolas, Monaco, monospace" font-size="12.5" fill="#475569" letter-spacing="1.5">XIAMEN, CN · OPEN TO WORK</text>
+
+  <!-- accent rule -->
+  <rect x="56" y="272" width="0" height="2" rx="1" fill="url(#accent)">
+    <animate attributeName="width" values="0;788" dur="1.8s" fill="freeze"/>
   </rect>
 </svg>
