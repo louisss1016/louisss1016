@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Tech stack">
+  <defs>
+    <g id="pill">
+      <rect x="0" y="0" width="100" height="28" rx="14" fill="#151823" stroke="#262B3B" stroke-width="1"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="240" fill="#0A0B10"/>
+
+  <!-- Group 1: Languages & Frameworks -->
+  <text x="0" y="26" font-family="Consolas, Monaco, monospace" font-size="11.5" fill="#64748B" letter-spacing="3.2">LANGUAGES &amp; FRAMEWORKS</text>
+
+  <g transform="translate(0,44)">
+    <g transform="translate(0,0)"><rect width="67" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#818CF8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Java</text></g>
+    <g transform="translate(77,0)"><rect width="118" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#818CF8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Spring Boot</text></g>
+    <g transform="translate(205,0)"><rect width="82" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#818CF8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Python</text></g>
+    <g transform="translate(297,0)"><rect width="89" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#818CF8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">FastAPI</text></g>
+    <g transform="translate(396,0)"><rect width="111" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#818CF8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">TypeScript</text></g>
+    <g transform="translate(517,0)"><rect width="89" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#818CF8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Node.js</text></g>
+  </g>
+
+  <!-- Group 2: AI & Agent -->
+  <text x="0" y="100" font-family="Consolas, Monaco, monospace" font-size="11.5" fill="#64748B" letter-spacing="3.2">AI &amp; AGENT</text>
+
+  <g transform="translate(0,118)">
+    <g transform="translate(0,0)"><rect width="104" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#22D3EE"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">LangChain</text></g>
+    <g transform="translate(114,0)"><rect width="104" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#22D3EE"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">LangGraph</text></g>
+    <g transform="translate(228,0)"><rect width="60" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#22D3EE"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">MCP</text></g>
+    <g transform="translate(298,0)"><rect width="60" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#22D3EE"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">RAG</text></g>
+    <g transform="translate(368,0)"><rect width="133" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#22D3EE"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">SSE Streaming</text></g>
+    <g transform="translate(511,0)"><rect width="104" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#22D3EE"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Vector DB</text></g>
+    <g transform="translate(625,0)"><rect width="96" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#22D3EE"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">LLM Eval</text></g>
+  </g>
+
+  <!-- Group 3: Infrastructure -->
+  <text x="0" y="174" font-family="Consolas, Monaco, monospace" font-size="11.5" fill="#64748B" letter-spacing="3.2">INFRASTRUCTURE &amp; TOOLING</text>
+
+  <g transform="translate(0,192)">
+    <g transform="translate(0,0)"><rect width="60" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#94A3B8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Docker</text></g>
+    <g transform="translate(70,0)"><rect width="94" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#94A3B8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Kubernetes</text></g>
+    <g transform="translate(174,0)"><rect width="62" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#94A3B8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Nginx</text></g>
+    <g transform="translate(246,0)"><rect width="62" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#94A3B8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Linux</text></g>
+    <g transform="translate(318,0)"><rect width="52" height="28" rx="14" fill="#151823" stroke="#262B3B"/><circle cx="15" cy="14" r="3" fill="#94A3B8"/><text x="27" y="18.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#CBD5E1">Git</text></g>
+  </g>
+</svg>
