@@ -7,7 +7,6 @@
   <circle cx="66" cy="27" r="5" fill="#484f58"/>
   <text x="450" y="32" text-anchor="middle" fill="#6e7681" font-size="12">louisss@github: ~/profile — bash — 80×24</text>
 
-  <!-- boot lines -->
   <text x="36" y="72" fill="#6e7681" font-size="12">[    OK]</text>
   <text x="100" y="72" fill="#8b949e" font-size="12">mounted /dev/profile</text>
   <text x="36" y="90" fill="#6e7681" font-size="12">[    OK]</text>
@@ -15,11 +14,9 @@
   <text x="36" y="108" fill="#6e7681" font-size="12">[  OK  ]</text>
   <text x="100" y="108" fill="#8b949e" font-size="12">spawned shell — pid 1337</text>
 
-  <!-- big name -->
   <text x="450" y="200" text-anchor="middle" fill="#e6edf3" font-size="72" font-weight="700" letter-spacing="8">LOUISSS</text>
-  <text x="450" y="228" text-anchor="middle" fill="#79c0ff" font-size="13" letter-spacing="4">// developer · xiamen · shipping</text>
+  <text x="450" y="228" text-anchor="middle" fill="#79c0ff" font-size="13" letter-spacing="4">// developer · shipping</text>
 
-  <!-- status row -->
   <text x="36" y="280" fill="#6e7681" font-size="13">~ ❯</text>
   <text x="72" y="280" fill="#e6edf3" font-size="13">whoami</text>
   <text x="200" y="280" fill="#8b949e" font-size="13">→ louisss</text>
