@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Louisss - Java / Python 双栈后端 · AI Agent 工程化">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080C18"/>
+      <stop offset="50%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C7D2FE"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="280" fill="url(#bg)"/>
+
+  <!-- grid -->
+  <g stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1">
+    <line x1="110" y1="0" x2="110" y2="280"/>
+    <line x1="220" y1="0" x2="220" y2="280"/>
+    <line x1="330" y1="0" x2="330" y2="280"/>
+    <line x1="440" y1="0" x2="440" y2="280"/>
+    <line x1="550" y1="0" x2="550" y2="280"/>
+    <line x1="660" y1="0" x2="660" y2="280"/>
+    <line x1="770" y1="0" x2="770" y2="280"/>
+    <line x1="880" y1="0" x2="880" y2="280"/>
+    <line x1="0" y1="70" x2="900" y2="70"/>
+    <line x1="0" y1="140" x2="900" y2="140"/>
+    <line x1="0" y1="210" x2="900" y2="210"/>
+  </g>
+
+  <!-- sweeping light -->
+  <rect x="-260" y="0" width="260" height="280" fill="url(#sweep)">
+    <animate attributeName="x" values="-260;900" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- orbiting rings -->
+  <g transform="translate(806,86)" fill="none" stroke="#FFFFFF">
+    <circle r="52" stroke-opacity="0.16" stroke-width="1.5"/>
+    <circle r="34" stroke-opacity="0.26" stroke-width="1.5"/>
+    <circle r="18" stroke-opacity="0.38" stroke-width="1.5"/>
+    <g>
+      <circle cx="52" cy="0" r="4.5" fill="#67E8F9" stroke="none" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="-34" cy="0" r="3.2" fill="#C7D2FE" stroke="none"/>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <circle r="6" fill="#FFFFFF" fill-opacity="0.9" stroke="none">
+      <animate attributeName="r" values="5;7.5;5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- waves -->
+  <g>
+    <path d="M0,198 C110,238 220,158 330,198 C440,238 550,158 660,198 C770,238 880,158 990,198 C1100,238 1210,158 1320,198 C1430,238 1540,158 1650,198 L1650,280 L0,280 Z"
+          fill="#080C18" fill-opacity="0.30">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -660,0" dur="16s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,222 C110,258 220,186 330,222 C440,258 550,186 660,222 C770,258 880,186 990,222 C1100,258 1210,186 1320,222 C1430,258 1540,186 1650,222 L1650,280 L0,280 Z"
+          fill="#080C18" fill-opacity="0.55">
+      <animateTransform attributeName="transform" type="translate" values="-660,0; 0,0" dur="12s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- identity -->
+  <text x="56" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#FFFFFF" letter-spacing="2">Louisss</text>
+  <text x="58" y="150" font-family="PingFang SC, Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="url(#accent)">Java / Python 双栈后端 · AI Agent 工程化</text>
+  <text x="58" y="178" font-family="Consolas, Monaco, monospace" font-size="15" fill="#CBD5E1" fill-opacity="0.88">Backend Engineer  ×  Multi-Agent Systems  ×  LLM in Production</text>
+
+  <!-- accent bar (left of identity block) -->
+  <rect x="38" y="60" width="4" height="0" rx="2" fill="#67E8F9">
+    <animate attributeName="height" values="0;66" dur="1.6s" fill="freeze"/>
+  </rect>
+</svg>
