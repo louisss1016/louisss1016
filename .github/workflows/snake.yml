@@ -1,0 +1,32 @@
+name: contribution-board-snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天 UTC 00:00（北京时间 08:00）
+  workflow_dispatch:        # 支持手动触发
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=#B87C14&color_dots=#EBEDF0,#F0D9A8,#E3B85C,#D09A2E,#B87C14
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#EFE3C8&color_dots=#1D1811,#5A4520,#8A6A2F,#C68A1F,#FFB000
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/ || true
+          git commit -m "chore: refresh contribution-board snake" || exit 0
+          git push
