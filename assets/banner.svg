@@ -1,24 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Louisss">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Louisss">
 <defs>
 <pattern id="scan" width="1" height="4" patternUnits="userSpaceOnUse">
-<rect width="1" height="1.6" fill="#00FF41" fill-opacity="0.05"/>
+<rect width="1" height="1.5" fill="#00FF41" fill-opacity="0.05"/>
 </pattern>
-<linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+<linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0%" stop-color="#00FF41" stop-opacity="0"/>
-<stop offset="50%" stop-color="#00FF41" stop-opacity="0.12"/>
+<stop offset="50%" stop-color="#00FF41" stop-opacity="0.11"/>
 <stop offset="100%" stop-color="#00FF41" stop-opacity="0"/>
 </linearGradient>
+<linearGradient id="glare" x1="0" y1="0" x2="0.6" y2="1">
+<stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.07"/>
+<stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+<stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="vignette" cx="50%" cy="46%" r="78%">
+<stop offset="58%" stop-color="#000000" stop-opacity="0"/>
+<stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+</radialGradient>
 </defs>
-<rect width="900" height="300" fill="#000000"/>
-<rect width="900" height="300" fill="url(#scan)"/>
-<rect x="0" y="-64" width="900" height="64" fill="url(#band)">
-<animate attributeName="y" values="-64;300" dur="6s" repeatCount="indefinite"/>
+<rect x="0" y="0" width="900" height="340" rx="22" fill="#141414"/>
+<rect x="6" y="6" width="888" height="328" rx="16" fill="#0c0c0c"/>
+<rect x="18" y="18" width="864" height="304" rx="8" fill="#050505"/>
+<rect x="22" y="22" width="856" height="296" rx="4" fill="#000000"/>
+<text x="52" y="60" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00B32C" letter-spacing="1">louisss@github:~$</text>
+<text x="66.4" y="116" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#FF3355" fill-opacity="0.32"> _       ___   _   _  ___    ____   ____   ____  </text>
+<text x="66.4" y="148" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#FF3355" fill-opacity="0.32">| |     / _ \ | | | ||_ _|  / ___| / ___| / ___| </text>
+<text x="66.4" y="180" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#FF3355" fill-opacity="0.32">| |    | | | || | | | | |   \___ \ \___ \ \___ \ </text>
+<text x="66.4" y="212" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#FF3355" fill-opacity="0.32">| |___ | |_| || |_| | | |    ___) | ___) | ___) |</text>
+<text x="66.4" y="244" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#FF3355" fill-opacity="0.32">|_____| \___/  \___/ |___|  |____/ |____/ |____/ </text>
+<text x="69.6" y="116" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#33AAFF" fill-opacity="0.28"> _       ___   _   _  ___    ____   ____   ____  </text>
+<text x="69.6" y="148" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#33AAFF" fill-opacity="0.28">| |     / _ \ | | | ||_ _|  / ___| / ___| / ___| </text>
+<text x="69.6" y="180" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#33AAFF" fill-opacity="0.28">| |    | | | || | | | | |   \___ \ \___ \ \___ \ </text>
+<text x="69.6" y="212" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#33AAFF" fill-opacity="0.28">| |___ | |_| || |_| | | |    ___) | ___) | ___) |</text>
+<text x="69.6" y="244" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#33AAFF" fill-opacity="0.28">|_____| \___/  \___/ |___|  |____/ |____/ |____/ </text>
+<text x="68" y="116" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#00FF41" fill-opacity="1.0"> _       ___   _   _  ___    ____   ____   ____  </text>
+<text x="68" y="148" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#00FF41" fill-opacity="1.0">| |     / _ \ | | | ||_ _|  / ___| / ___| / ___| </text>
+<text x="68" y="180" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#00FF41" fill-opacity="1.0">| |    | | | || | | | | |   \___ \ \___ \ \___ \ </text>
+<text x="68" y="212" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#00FF41" fill-opacity="1.0">| |___ | |_| || |_| | | |    ___) | ___) | ___) |</text>
+<text x="68" y="244" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#00FF41" fill-opacity="1.0">|_____| \___/  \___/ |___|  |____/ |____/ |____/ </text>
+<text x="52" y="300" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#00FF41">$</text>
+<rect x="70" y="284" width="10" height="20" fill="#00FF41">
+<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/>
 </rect>
-<text x="60" y="62" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#00B32C" letter-spacing="1">louisss@github:~$</text>
-<text x="97" y="104" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41"> _       ___   _   _  ___    ____   ____   ____  </text>
-<text x="97" y="134" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41">| |     / _ \ | | | ||_ _|  / ___| / ___| / ___| </text>
-<text x="97" y="164" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41">| |    | | | || | | | | |   \___ \ \___ \ \___ \ </text>
-<text x="97" y="194" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41">| |___ | |_| || |_| | | |    ___) | ___) | ___) |</text>
-<text x="97" y="224" xml:space="preserve" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#00FF41">|_____| \___/  \___/ |___|  |____/ |____/ |____/ </text>
-<rect x="445" y="244" width="10" height="20" fill="#00FF41"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/></rect>
+<rect x="22" y="22" width="856" height="296" fill="url(#scan)"/>
+<rect x="22" y="-60" width="856" height="60" fill="url(#sweep)">
+<animate attributeName="y" values="-60;318" dur="6.5s" repeatCount="indefinite"/>
+</rect>
+<rect x="22" y="22" width="856" height="296" fill="url(#vignette)"/>
+<polygon points="96,0 300,0 120,340 0,340" fill="url(#glare)"/>
+<circle cx="48" cy="328" r="3" fill="#00FF41">
+<animate attributeName="opacity" values="1;0.35;1" dur="3.2s" repeatCount="indefinite"/>
+</circle>
 </svg>
