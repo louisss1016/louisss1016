@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
-  <!-- window -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
   <rect x="10" y="10" width="880" height="280" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-
-  <!-- title bar -->
   <rect x="10" y="10" width="880" height="34" rx="8" fill="#161b22"/>
   <rect x="10" y="34" width="880" height="10" fill="#161b22"/>
   <circle cx="30" cy="27" r="5" fill="#3d434b"/>
@@ -10,7 +7,6 @@
   <circle cx="66" cy="27" r="5" fill="#3d434b"/>
   <text x="450" y="32" text-anchor="middle" fill="#6e7681" font-size="12">louisss@dev: ~</text>
 
-  <!-- body, loose line-height -->
   <text x="36" y="86" fill="#6e7681" font-size="14">~ ❯</text>
   <text x="72" y="86" fill="#e6edf3" font-size="14">whoami</text>
   <text x="72" y="112" fill="#8b949e" font-size="13">Louisss · developer · Xiamen</text>
@@ -24,7 +20,6 @@
   <circle cx="76" cy="244" r="4" fill="#e0a458"/>
   <text x="88" y="248" fill="#e0a458" font-size="13">available</text>
 
-  <!-- cursor -->
   <rect x="36" y="262" width="9" height="14" fill="#e0a458">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
