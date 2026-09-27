@@ -1,41 +1,6 @@
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Louisss — Java / Python 双栈后端 · AI Agent 工程化">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="52%" stop-color="#4F46E5"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#A5B4FC"/>
-      <stop offset="100%" stop-color="#67E8F9"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="900" height="280" fill="url(#bg)"/>
-
-  <g stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1">
-    <line x1="120" y1="0" x2="120" y2="280"/>
-    <line x1="240" y1="0" x2="240" y2="280"/>
-    <line x1="360" y1="0" x2="360" y2="280"/>
-    <line x1="480" y1="0" x2="480" y2="280"/>
-    <line x1="600" y1="0" x2="600" y2="280"/>
-    <line x1="720" y1="0" x2="720" y2="280"/>
-    <line x1="840" y1="0" x2="840" y2="280"/>
-  </g>
-
-  <circle cx="820" cy="70" r="46" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1.5"/>
-  <circle cx="820" cy="70" r="30" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.5"/>
-  <circle cx="820" cy="70" r="7" fill="#67E8F9" fill-opacity="0.85"/>
-
-  <path d="M0,196 C150,238 250,152 400,184 C550,216 660,142 900,178 L900,280 L0,280 Z" fill="#0B1020" fill-opacity="0.32"/>
-  <path d="M0,224 C160,258 270,182 430,210 C590,238 710,174 900,204 L900,280 L0,280 Z" fill="#0B1020" fill-opacity="0.55"/>
-
-  <text x="56" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="70" font-weight="800" fill="#FFFFFF" letter-spacing="2">Louisss</text>
-  <text x="58" y="152" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="url(#accent)">Java / Python 双栈后端 · AI Agent 工程化</text>
-  <text x="58" y="180" font-family="Consolas, Monaco, monospace" font-size="16" fill="#CBD5E1" fill-opacity="0.85">Backend Engineer  ×  Multi-Agent Systems  ×  LLM in Production</text>
-</svg>
+<img src="assets/banner.svg" width="900" alt="Louisss — Java / Python 双栈后端 · AI Agent 工程化"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3200&pause=1400&color=22D3EE&center=true&vCenter=true&width=760&lines=把%20Agent%20做成能上线的系统%EF%BC%8C而不是能跑的%20demo;Multi-Agent%20Routing%20%2F%20Context%20Engineering%20%2F%20RAG;Streaming%20Architecture%20%2F%20LLM%20Evaluation;Contributing%20to%20Open%20Source%20every%20day" alt="typing"/>
 
@@ -45,7 +10,7 @@
 <a href="mailto:3116214424@qq.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="#"><img src="https://img.shields.io/badge/Location-%E5%8E%A6%E9%97%A8-06B6D4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/></a>
 <a href="https://github.com/louisss1016?tab=followers"><img src="https://img.shields.io/github/followers/louisss1016?style=for-the-badge&color=4F46E5&logo=github&label=Followers" alt="Followers"/></a>
-<a href="https://github.com/louisss1016?tab=repositories"><img src="https://img.shields.io/badge/Open%20to%20Work-22C55E?style=for-the-badge&logo=linkedin&logoColor=white" alt="Open to work"/></a>
+<a href="mailto:3116214424@qq.com"><img src="https://img.shields.io/badge/Open%20to%20Work-22C55E?style=for-the-badge&logo=linkedin&logoColor=white" alt="Open to work"/></a>
 
 <br/><br/>
 
@@ -60,7 +25,7 @@
 
 **Java / Python 双栈后端工程师**，主攻 **AI Agent 工程化落地**。
 
-我关注的不只是"能不能跑通一个 Agent demo"，而是 **能不能把它做成可维护、可观测、可灰度的线上系统**：
+我关注的不只是「能不能跑通一个 Agent demo」，而是 **能不能把它做成可维护、可观测、可灰度的线上系统**：
 多 Agent 路由怎么拆、上下文怎么治理、流式输出怎么穿过多层网关、效果变化怎么量化回归。
 
 - 🔭 **正在构建** `contrib-radar` —— 全自动开源贡献 Agent：发现候选仓库 → 健康度体检 → Issue 打分 → 碰撞检测 → 提交 PR
@@ -136,7 +101,7 @@
 
 需求澄清 → 最小切片推进 → 子 Agent 执行与验收 → 五维评测 → 上线运维闭环。
 
-- 把"随手 vibe"收敛成可复现的工程流程
+- 把「随手 vibe」收敛成可复现的工程流程
 - 切片推进 + 验收门禁，避免一次性生成失控
 - 五维评测量化产出质量
 
@@ -190,17 +155,7 @@
 
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="70" viewBox="0 0 900 70" role="img" aria-label="footer divider">
-  <defs>
-    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="50%" stop-color="#4F46E5"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
-    </linearGradient>
-  </defs>
-  <rect width="900" height="70" fill="url(#fg)"/>
-  <text x="450" y="44" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Thanks for visiting  ·  欢迎交流 AI Agent 工程化</text>
-</svg>
+<img src="assets/footer.svg" width="900" alt="footer"/>
 
 <br/>
 
