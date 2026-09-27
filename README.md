@@ -1,17 +1,56 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:4F46E5,100:22D3EE&height=260&section=header&text=Louisss&fontSize=76&fontAlignY=42&fontColor=FFFFFF&animation=fadeIn&desc=Java%20%2F%20Python%20%E5%8F%8C%E6%A0%88%E5%90%8E%E7%AB%AF%20%C2%B7%20AI%20Agent%20%E5%B7%A5%E7%A8%8B%E5%8C%96&descSize=24&descAlignY=68&descColor=E2E8F0" alt="banner" width="100%"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Louisss — Java / Python 双栈后端 · AI Agent 工程化">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="52%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A5B4FC"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+  </defs>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=22D3EE&center=true&vCenter=true&width=700&lines=Backend%20Engineer%20(Java%20%2B%20Python);Building%20production%20AI%20Agents;Multi-Agent%20Routing%20%2F%20RAG%20%2F%20Streaming;Contributing%20to%20Open%20Source%20every%20day" alt="typing"/>
+  <rect width="900" height="280" fill="url(#bg)"/>
 
-<br/>
+  <g stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1">
+    <line x1="120" y1="0" x2="120" y2="280"/>
+    <line x1="240" y1="0" x2="240" y2="280"/>
+    <line x1="360" y1="0" x2="360" y2="280"/>
+    <line x1="480" y1="0" x2="480" y2="280"/>
+    <line x1="600" y1="0" x2="600" y2="280"/>
+    <line x1="720" y1="0" x2="720" y2="280"/>
+    <line x1="840" y1="0" x2="840" y2="280"/>
+  </g>
+
+  <circle cx="820" cy="70" r="46" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1.5"/>
+  <circle cx="820" cy="70" r="30" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.5"/>
+  <circle cx="820" cy="70" r="7" fill="#67E8F9" fill-opacity="0.85"/>
+
+  <path d="M0,196 C150,238 250,152 400,184 C550,216 660,142 900,178 L900,280 L0,280 Z" fill="#0B1020" fill-opacity="0.32"/>
+  <path d="M0,224 C160,258 270,182 430,210 C590,238 710,174 900,204 L900,280 L0,280 Z" fill="#0B1020" fill-opacity="0.55"/>
+
+  <text x="56" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="70" font-weight="800" fill="#FFFFFF" letter-spacing="2">Louisss</text>
+  <text x="58" y="152" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="url(#accent)">Java / Python 双栈后端 · AI Agent 工程化</text>
+  <text x="58" y="180" font-family="Consolas, Monaco, monospace" font-size="16" fill="#CBD5E1" fill-opacity="0.85">Backend Engineer  ×  Multi-Agent Systems  ×  LLM in Production</text>
+</svg>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3200&pause=1400&color=22D3EE&center=true&vCenter=true&width=760&lines=把%20Agent%20做成能上线的系统%EF%BC%8C而不是能跑的%20demo;Multi-Agent%20Routing%20%2F%20Context%20Engineering%20%2F%20RAG;Streaming%20Architecture%20%2F%20LLM%20Evaluation;Contributing%20to%20Open%20Source%20every%20day" alt="typing"/>
+
+<br/><br/>
 
 <a href="https://github.com/louisss1016"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://github.com/louisss1016/louisss1016"><img src="https://img.shields.io/badge/Profile-4F46E5?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Profile"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Location-%E5%8E%A6%E9%97%A8-06B6D4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/></a>
 <a href="mailto:3116214424@qq.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Location-%E5%8E%A6%E9%97%A8-06B6D4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/></a>
+<a href="https://github.com/louisss1016?tab=followers"><img src="https://img.shields.io/github/followers/louisss1016?style=for-the-badge&color=4F46E5&logo=github&label=Followers" alt="Followers"/></a>
+<a href="https://github.com/louisss1016?tab=repositories"><img src="https://img.shields.io/badge/Open%20to%20Work-22C55E?style=for-the-badge&logo=linkedin&logoColor=white" alt="Open to work"/></a>
 
-<img src="https://komarev.com/ghpvc/?username=louisss1016&label=Profile%20Views&color=4F46E5&style=flat-square" alt="profile views"/>
+<br/><br/>
+
+<img src="https://img.shields.io/github/stars/louisss1016?style=flat-square&color=EAB308&label=Total%20Stars"/>
+<img src="https://img.shields.io/github/commit-activity/y/louisss1016/contrib-radar?style=flat-square&color=22D3EE&label=Commits%20(contrib-radar%2C%201y)"/>
 
 </div>
 
@@ -21,12 +60,12 @@
 
 **Java / Python 双栈后端工程师**，主攻 **AI Agent 工程化落地**。
 
-我的关注点不是"能不能跑通一个 Agent demo"，而是**能不能把它做成可维护、可观测、可灰度的线上系统**：
-多 Agent 路由怎么拆、上下文怎么治理、流式输出怎么穿过多层网关、效果怎么量化评估。
+我关注的不只是"能不能跑通一个 Agent demo"，而是 **能不能把它做成可维护、可观测、可灰度的线上系统**：
+多 Agent 路由怎么拆、上下文怎么治理、流式输出怎么穿过多层网关、效果变化怎么量化回归。
 
 - 🔭 **正在构建** `contrib-radar` —— 全自动开源贡献 Agent：发现候选仓库 → 健康度体检 → Issue 打分 → 碰撞检测 → 提交 PR
 - 🌱 **深耕方向**：Multi-Agent Orchestration、Context Engineering、RAG、Streaming 架构、LLM 评估
-- 🤝 **活跃贡献**：pydantic-ai / ms-agent 等 Agent 框架，docs 与工程细节双补
+- 🤝 **活跃贡献**：pydantic-ai / ms-agent 等 Agent 框架，文档与工程细节双补
 - 💼 **求职方向**：AI Agent / LLM 应用方向的后端与 Agent 工程岗位
 
 ---
@@ -35,10 +74,12 @@
 
 <div align="center">
 
-<h3>🧱 Languages & Frameworks</h3>
+**🧱 Languages & Frameworks**
+
 <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,ts,nodejs,mysql,redis&theme=dark" alt="languages"/>
 
-<h3>🤖 AI & Agent Stack</h3>
+**🤖 AI & Agent Stack**
+
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangGraph-0F766E?style=for-the-badge&logo=graphql&logoColor=white"/>
 <img src="https://img.shields.io/badge/MCP-4F46E5?style=for-the-badge&logo=modelcontextprotocol&logoColor=white"/>
@@ -47,7 +88,8 @@
 <img src="https://img.shields.io/badge/Vector%20DB-0EA5E9?style=for-the-badge&logo=pinecone&logoColor=white"/>
 <img src="https://img.shields.io/badge/LLM%20Eval-EAB308?style=for-the-badge&logo=weightsandbiases&logoColor=white"/>
 
-<h3>⚙️ Infrastructure</h3>
+**⚙️ Infrastructure & Tooling**
+
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,linux,git,github,vscode,intellij&theme=dark" alt="infra"/>
 
 </div>
@@ -58,14 +100,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=louisss1016&show_icons=true&theme=aura&hide_border=true&count_private=true&include_all_commits=true" alt="stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=louisss1016&layout=compact&langs_count=8&theme=aura&hide_border=true" alt="top langs"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=louisss1016&theme=aura&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=louisss1016&theme=aura&hide_border=true&area=true&area_color=4F46E5" alt="activity graph"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=louisss1016&show_icons=true&theme=aura&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs?username=louisss1016&layout=compact&langs_count=8&theme=aura&hide_border=true" alt="Top languages"/>
 
 </div>
 
@@ -74,7 +110,6 @@
 ## 🚀 Open Source
 
 <div align="center">
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -110,12 +145,11 @@
 </td>
 </tr>
 </table>
-
 </div>
 
 ### 🤝 在飞的社区贡献
 
-| 项目 | PR | 内容 | 状态 |
+| 项目 | PR / Issue | 内容 | 状态 |
 | :--- | :--- | :--- | :--- |
 | **pydantic/pydantic-ai** | [#8855](https://github.com/pydantic/pydantic-ai/pull/8855) | 补全 Image Generation 文档「如何取回生成的图片」 | 🟡 待 Review |
 | **modelscope/ms-agent** | [#1008](https://github.com/modelscope/ms-agent/pull/1008) | 补齐英文 Quick Start 缺失的 Using WebUI 章节 | 🟡 待 Review |
@@ -136,7 +170,7 @@
 - **MCP 工具接入**：把仓储域能力封装为标准工具协议，解耦模型与业务接口
 - **FastAPI + StreamingResponse（SSE）**：端到端流式输出，降低首字延迟
 - **RAG**：业务知识库检索增强，抑制领域幻觉
-- **MoE 评估**：多维度评估体系，效果变化可量化、可回归
+- **MoE 评估**：多维度评估体系，让效果变化可量化、可回归
 
 > 技术栈：`Spring Boot` · `LangChain` · `LangGraph` · `MCP` · `FastAPI (SSE)` · `RAG`
 
@@ -147,7 +181,7 @@
 <br/>
 
 - **格力网批** —— 网批业务后端系统，`Java` / `Spring Boot` 技术栈
-- **小米客服大模型** —— 大模型驱动的客服系统，对话与业务系统对接
+- **小米客服大模型** —— 大模型驱动的客服系统，对话能力与业务系统对接
 - **小米全渠道** —— 全渠道业务后端，多渠道数据与流程整合
 
 </details>
@@ -156,13 +190,22 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0B1020,50:4F46E5,100:22D3EE&height=60&section=footer" alt="footer" width="100%"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="70" viewBox="0 0 900 70" role="img" aria-label="footer divider">
+  <defs>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="50%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="70" fill="url(#fg)"/>
+  <text x="450" y="44" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Thanks for visiting  ·  欢迎交流 AI Agent 工程化</text>
+</svg>
 
-### 🤝 Let's Connect
+<br/>
 
-欢迎交流 **AI Agent 工程化**、**后端架构** 或 **开源协作**。
-如果你也在做 Agent 落地，欢迎开个 Issue 一起聊聊。
+如果你也在做 Agent 落地、后端架构或开源协作，欢迎开个 Issue 一起聊聊。
 
-<img src="https://img.shields.io/badge/Thanks%20for%20visiting-4F46E5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Let's%20Connect-4F46E5?style=for-the-badge"/>
 
 </div>
