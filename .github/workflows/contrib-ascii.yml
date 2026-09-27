@@ -1,0 +1,29 @@
+name: contribution-ascii
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天 UTC 00:00（北京时间 08:00）
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate ASCII contribution graph
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/ascii_contrib.py louisss1016
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/ || true
+          git commit -m "chore: refresh ascii contribution graph" || exit 0
+          git push
