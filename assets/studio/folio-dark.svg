@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="HELSOME/folio — Resilience at the data layer. Merged PR #72.">
+<title>HELSOME/folio — Resilience at the data layer. Merged PR #72.</title>
+<rect width="1000" height="260" fill="#171719"/>
+<text x="38" y="35" fill="#aaa9a2" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.5">02 / HELSOME</text>
+<text x="785" y="35" fill="#f26048" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1">MERGED / #72</text>
+<path d="M945 22h16v16m-17 1 17-17" fill="none" stroke="#f1f0ea" stroke-width="1.7"/>
+<g fill="#f1f0ea" transform="translate(36 109) scale(0.028320 -0.028320)"><path transform="translate(0.00 0)" d="M24 1062H180V1142Q180 1276 208.5 1342.0Q237 1408 313.5 1449.5Q390 1491 507 1491Q627 1491 742 1455L704 1259Q637 1275 575 1275Q514 1275 487.5 1246.5Q461 1218 461 1137V1062H671V841H461V0H180V841H24Z"/><path transform="translate(604.32 0)" d="M82 546Q82 686 151.0 817.0Q220 948 346.5 1017.0Q473 1086 629 1086Q870 1086 1024.0 929.5Q1178 773 1178 534Q1178 293 1022.5 134.5Q867 -24 631 -24Q485 -24 352.5 42.0Q220 108 151.0 235.5Q82 363 82 546ZM370 531Q370 373 445.0 289.0Q520 205 630 205Q740 205 814.5 289.0Q889 373 889 533Q889 689 814.5 773.0Q740 857 630 857Q520 857 445.0 773.0Q370 689 370 531Z"/><path transform="translate(1777.63 0)" d="M147 0V1466H428V0Z"/><path transform="translate(2268.95 0)" d="M147 1206V1466H428V1206ZM147 0V1062H428V0Z"/><path transform="translate(2760.27 0)" d="M82 546Q82 686 151.0 817.0Q220 948 346.5 1017.0Q473 1086 629 1086Q870 1086 1024.0 929.5Q1178 773 1178 534Q1178 293 1022.5 134.5Q867 -24 631 -24Q485 -24 352.5 42.0Q220 108 151.0 235.5Q82 363 82 546ZM370 531Q370 373 445.0 289.0Q520 205 630 205Q740 205 814.5 289.0Q889 373 889 533Q889 689 814.5 773.0Q740 857 630 857Q520 857 445.0 773.0Q370 689 370 531Z"/></g>
+<text x="38" y="150" fill="#f1f0ea" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="-0.3">Resilience at the data layer.</text>
+<text x="38" y="233" fill="#aaa9a2" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1">TYPESCRIPT / PROVIDER RELIABILITY</text>
+<g transform="translate(804 148) scale(1)">
+<rect x="-131" y="-48" width="86" height="32" rx="3" fill="#171719" stroke="#454548"/>
+<text x="-121" y="-28.0" fill="#aaa9a2" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="0.7">REQUEST</text>
+<path d="M-45-32H-13" fill="none" stroke="#454548" stroke-width="1.3"/>
+<rect x="-13" y="-48" width="83" height="32" rx="3" fill="#171719" stroke="#454548"/>
+<text x="-3" y="-28.0" fill="#aaa9a2" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="0.7">PRIMARY</text>
+<path d="M70-32H114V39H70" fill="none" stroke="#f26048" stroke-width="1.3"/>
+<rect x="-13" y="23" width="83" height="32" rx="3" fill="#171719" stroke="#f26048"/>
+<text x="-3" y="43.0" fill="#f1f0ea" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="0.7">BACKUP</text>
+<path d="M-13 39H-88V-16" fill="none" stroke="#f26048" stroke-width="1.3"/>
+<circle cx="114" cy="-32" r="4" fill="#f26048"/>
+<text x="-3" y="2" fill="#aaa9a2" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="1.2">FAILOVER</text>
+</g>
+</svg>

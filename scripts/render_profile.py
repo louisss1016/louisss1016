@@ -99,7 +99,7 @@ def cover(fonts, theme, mobile=False):
         a.lettering('Built with', pad, 302, 48, fonts['regular'], fg, -1.4)
         a.lettering('intent.', pad+221, 302, 53, fonts['italic'], fg, -1)
         a.label('Backend engineering. AI agent systems.', pad, 343, 18, muted, 0)
-        a.label('Small tools. Real contributions.', pad, 372, 18, muted, 0)
+        a.label('Reliable systems. Real contributions.', pad, 372, 18, muted, 0)
         sculpture(a, 775, 314, 1.05, dark)
         a.line(pad, 421, w-pad, 421, line)
         a.label('BUILD QUIETLY. SHIP OFTEN.', pad, 445, 10, muted, 1.5)
@@ -108,40 +108,66 @@ def cover(fonts, theme, mobile=False):
     a.save(f'cover-{theme}{"-mobile" if mobile else ""}.svg')
 
 
-def project(fonts, kind, theme, mobile=False):
+CONTRIBUTIONS = {
+    'deerflow': ('01 / BYTEDANCE', 'deer-flow', 'Windows-safe test isolation.', 'PYTHON / CROSS-PLATFORM CI', '6439'),
+    'folio': ('02 / HELSOME', 'folio', 'Resilience at the data layer.', 'TYPESCRIPT / PROVIDER RELIABILITY', '72'),
+    'ouroboros': ('03 / Q00', 'ouroboros', 'The right model, at the right stage.', 'PYTHON / AGENT CONFIGURATION', '2462'),
+}
+
+
+def contribution(fonts, kind, theme, mobile=False):
     dark = theme == 'dark'
-    bg, fg, muted, line = ('#171719', PAPER, '#aaa9a2', '#39393c') if dark else ('#e9e8e1', INK, '#62625b', '#c5c5be')
-    w, h = (600, 300) if mobile else (1000, 235)
-    a = Artwork(w, h, 'Contrib Radar — discover worthwhile open-source contributions' if kind=='radar' else 'Vibecoding Navigator — plan, build, verify and ship', bg)
+    bg, fg, muted, line = ('#171719', PAPER, '#aaa9a2', '#454548') if dark else ('#e9e8e1', INK, '#62625b', '#b7b7af')
+    owner, name, title, category, number = CONTRIBUTIONS[kind]
+    w, h = (600, 340) if mobile else (1000, 260)
+    a = Artwork(w, h, f'{owner.split(" / ")[1]}/{name} — {title} Merged PR #{number}.', bg)
     p = 32 if mobile else 38
-    a.label('01 / OPEN-SOURCE INTELLIGENCE' if kind=='radar' else '02 / AGENT WORKFLOW', p, 34, 11 if mobile else 12, muted, 1.4)
-    title = 'Contrib Radar' if kind=='radar' else 'Vibecoding Navigator'
-    a.lettering(title, p-2, 93 if mobile else 104, 37 if mobile else 48, fonts['bold'], fg, -1.3 if mobile else -1.9)
-    a.label('Find the right problem.' if kind=='radar' else 'From intent to implementation.', p, 131 if mobile else 145, 20, muted, 0)
-    a.label('DISCOVER / EVALUATE / CONTRIBUTE' if kind=='radar' else 'PLAN / BUILD / VERIFY / SHIP', p, 265 if mobile else 201, 11, muted, 1)
-    # Actual click target is the enclosing README link, not a script in this image.
-    a.add(f'<path d="M{w-56} 38h17v17m-18 1 18-18" fill="none" stroke="{fg}" stroke-width="2"/>')
-    if mobile:
-        cx, cy, s = 465, 204, .62
+    a.label(owner, p, 35, 12, muted, 1.5)
+    a.label(f'MERGED / #{number}', w-215, 35, 12, RED, 1)
+    a.add(f'<path d="M{w-55} 22h16v16m-17 1 17-17" fill="none" stroke="{fg}" stroke-width="1.7"/>')
+    a.lettering(name, p-2, 109, 56 if mobile else 58, fonts['bold'], fg, -2.2)
+    a.label(title, p, 150, 23 if mobile else 25, fg, -.3)
+    a.label(category, p, h-27, 11 if mobile else 12, muted, 1)
+    cx, cy, scale = (412, 238, .78) if mobile else (804, 148, 1)
+    a.add(f'<g transform="translate({cx} {cy}) scale({scale})">')
+
+    def box(x, y, width, height, label, accent=False):
+        stroke = RED if accent else line
+        a.add(f'<rect x="{x}" y="{y}" width="{width}" height="{height}" rx="3" fill="{bg}" stroke="{stroke}"/>')
+        a.label(label, x+10, y+height/2+4, 11, fg if accent else muted, .7)
+
+    def connector(d, accent=False):
+        a.add(f'<path d="{d}" fill="none" stroke="{RED if accent else line}" stroke-width="1.3"/>')
+
+    if kind == 'deerflow':
+        # A bounded child environment and its five policy checks.
+        a.add(f'<rect x="-120" y="-57" width="240" height="112" rx="4" fill="none" stroke="{line}" stroke-dasharray="3 5"/>')
+        box(-104, -41, 83, 32, 'BASE ENV')
+        connector('M-21-25H18', True)
+        box(18, -41, 86, 32, 'PYTEST', True)
+        connector('M61-9V11H-83V24')
+        for x in [-83,-42,-1,40,81]:
+            connector(f'M{x} 11V24')
+            a.add(f'<rect x="{x-9}" y="24" width="18" height="18" rx="2" fill="{bg}" stroke="{line}"/>')
+            connector(f'M{x-4} 32l3 3 5-6',True)
+    elif kind == 'folio':
+        box(-131,-48,86,32,'REQUEST')
+        connector('M-45-32H-13')
+        box(-13,-48,83,32,'PRIMARY')
+        connector('M70-32H114V39H70',True)
+        box(-13,23,83,32,'BACKUP',True)
+        connector('M-13 39H-88V-16',True)
+        a.add(f'<circle cx="114" cy="-32" r="4" fill="{RED}"/>')
+        a.label('FAILOVER', -3, 2, 9, muted, 1.2)
     else:
-        cx, cy, s = 818, 125, .83
-    a.add(f'<g transform="translate({cx} {cy}) scale({s})">')
-    if kind == 'radar':
-        for r in [28, 55, 82]:
-            a.add(f'<circle r="{r}" fill="none" stroke="{line}" stroke-width="1"/>')
-        a.line(-100,0,100,0,line)
-        a.line(0,-95,0,95,line)
-        a.add(f'<path d="M0 0 70-43A82 82 0 0 1 80 18Z" fill="{RED}" opacity="0.1"/>')
-        a.line(0,0,70,-43,RED,1.5)
-        for x,y in [(-31,18),(-42,-44),(58,44)]:
-            a.add(f'<circle cx="{x}" cy="{y}" r="3" fill="{muted}"/>')
-        a.add(f'<circle cx="49" cy="-30" r="5" fill="{RED}"/><circle cx="49" cy="-30" r="10" fill="none" stroke="{RED}" stroke-width="1"/>')
-    else:
-        for offset,fill in [(33,bg),(0,bg),(-33,bg)]:
-            a.add(f'<path d="M0 {offset-40} 88 {offset} 0 {offset+40}-88 {offset}Z" fill="{fill}" stroke="{line}" stroke-width="1.5"/>')
-        a.add(f'<path d="M-48-33 0-55 48-33 0-11Z" fill="none" stroke="{RED}" stroke-width="1.5"/>')
-        a.add(f'<path d="M0-11V73" stroke="{RED}" stroke-width="1.5" stroke-dasharray="3 5"/>')
-        a.add(f'<circle cy="73" r="4" fill="{RED}"/>')
+        box(-132,-49,77,30,'ENV')
+        box(-132,19,77,30,'CONFIG')
+        connector('M-55-34H-32V0H-9M-55 34H-32V0')
+        box(-9,-18,88,36,'EXECUTE',True)
+        connector('M79 0H104V-36H134M104 0V36H134',True)
+        a.add(f'<circle cx="138" cy="-36" r="4" fill="{RED}"/><circle cx="138" cy="36" r="4" fill="{RED}"/>')
+        a.label('CLI', 106, -48, 10, muted, .5)
+        a.label('API', 106, 58, 10, muted, .5)
     a.add('</g>')
     a.save(f'{kind}-{theme}{"-mobile" if mobile else ""}.svg')
 
@@ -154,9 +180,9 @@ def main():
     for theme in ['dark','light']:
         for mobile in [False,True]:
             cover(fonts, theme, mobile)
-            for kind in ['radar','navigator']:
-                project(fonts, kind, theme, mobile)
-    print('Rendered 12 original SVG assets (desktop/mobile, dark/light).')
+            for kind in CONTRIBUTIONS:
+                contribution(fonts, kind, theme, mobile)
+    print('Rendered 16 profile assets (cover and three contributions, desktop/mobile, dark/light).')
 
 
 if __name__ == '__main__':

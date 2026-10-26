@@ -4,16 +4,16 @@ The second design uses an editorial layout: large outlined lettering, charcoal a
 
 ## Assets
 
-`assets/studio/` contains twelve SVG files: cover, radar and navigator, each in dark/light and desktop/mobile variants. The README's picture sources select the appropriate variant. All essential meaning is also present in native text or image alternatives.
+`assets/studio/` now uses sixteen SVG files: the cover and three merged-contribution cards, each in dark/light and desktop/mobile variants. Earlier project artwork is retained but is not displayed. The README's picture sources select the appropriate variant. All essential meaning is also present in native text or image alternatives.
 
 - Desktop cover: 1000 × 460.
 - Mobile cover: 600 × 560, with a separate composition.
-- Desktop project covers: 1000 × 235.
-- Mobile project covers: 600 × 300.
+- Desktop contribution cards: 1000 × 260.
+- Mobile contribution cards: 600 × 340.
 - Accent: #f26048; charcoal: #111113; warm white: #f1f0ea.
 - Display lettering is outlined, so remote rendering does not depend on installed fonts.
 
-The loop is a projected torus. The radar represents contribution discovery; the layered planes represent staged agent workflows. The images are static, with no external requests or scripts. Links and disclosures use native GitHub controls.
+The loop is a projected torus. Contribution artwork illustrates a bounded pytest environment, data-provider failover, and stage-specific model selection. The images are static, with no external requests or scripts. Links and disclosures use native GitHub controls.
 
 ## Rebuild
 
@@ -27,4 +27,8 @@ Font files are not included in this repository. Rendering writes only to `assets
 
 ## Validation
 
-The SVGs were parsed as XML, all README image references were checked, and the GitHub Markdown renderer preserved the picture sources and three disclosures. Desktop dark/light and the separate mobile composition were inspected in a browser. The contributions reference previously verified merged PRs.
+The SVGs were parsed as XML, all README image references were checked, and the GitHub Markdown renderer preserved the picture sources and six disclosures. Desktop dark/light and the separate mobile contribution artwork were rendered and visually inspected. The contributions reference previously verified merged PRs.
+
+## Contribution selection
+
+The profile now leads with merged contributions instead of the two personal skills. The selection balances cross-platform diagnosis and regression CI (deer-flow #6439), backend resilience design (folio #72), and configuration precedence across agent backends (ouroboros #2462). Merge state, authorship and changed code were checked on 2026-10-26. PR descriptions provide historical test reports; these are not presented as newly rerun upstream tests. Each image links to the relevant PR, with scope and verification notes in a native disclosure.
