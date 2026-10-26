@@ -3,19 +3,77 @@
 **Backend engineering · AI agents**<br>
 用 Java / Python 构建后端与 AI 应用，关注可靠性、跨平台兼容和工程细节。
 
-### Selected contributions
+### 开源贡献
 
-以下贡献均已合并到上游。
+<table>
+<thead>
+<tr><th align="left" width="60%">贡献项目</th><th align="center">★</th><th align="left">主要语言</th><th align="center">已合并</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://avatars.githubusercontent.com/u/4158466?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/bytedance/deer-flow"><code>bytedance/deer-flow</code></a><br><sub>面向深度研究、代码生成与内容创作的智能体框架。</sub></td>
+<td align="center"><a href="https://github.com/bytedance/deer-flow/stargazers">84.4k</a></td>
+<td><img src="assets/languages/python.svg" alt="Python" height="20"></td>
+<td align="center"><a href="https://github.com/search?q=repo%3Abytedance%2Fdeer-flow+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">1</a></td>
+</tr>
+<tr>
+<td><img src="https://avatars.githubusercontent.com/u/20101770?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/TencentCloud/Octop"><code>TencentCloud/Octop</code></a><br><sub>支持多用户、多智能体协作的自托管 AI 助手。</sub></td>
+<td align="center"><a href="https://github.com/TencentCloud/Octop/stargazers">11.1k</a></td>
+<td><img src="assets/languages/python.svg" alt="Python" height="20"></td>
+<td align="center"><a href="https://github.com/search?q=repo%3ATencentCloud%2FOctop+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">2</a></td>
+</tr>
+<tr>
+<td><img src="https://avatars.githubusercontent.com/u/31264094?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/Q00/ouroboros"><code>Q00/ouroboros</code></a><br><sub>支持多种编程智能体运行时的 Agent OS。</sub></td>
+<td align="center"><a href="https://github.com/Q00/ouroboros/stargazers">6.3k</a></td>
+<td><img src="assets/languages/python.svg" alt="Python" height="20"></td>
+<td align="center"><a href="https://github.com/search?q=repo%3AQ00%2Fouroboros+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">1</a></td>
+</tr>
+<tr>
+<td><img src="https://avatars.githubusercontent.com/u/279501698?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/rome-os/rome"><code>rome-os/rome</code></a><br><sub>面向递归智能体的开源 Agent 操作系统。</sub></td>
+<td align="center"><a href="https://github.com/rome-os/rome/stargazers">871</a></td>
+<td><img src="assets/languages/typescript.svg" alt="TypeScript" height="20"></td>
+<td align="center"><a href="https://github.com/search?q=repo%3Arome-os%2Frome+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">2</a></td>
+</tr>
+<tr>
+<td><img src="https://avatars.githubusercontent.com/u/130743226?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/Abilityai/trinity"><code>Abilityai/trinity</code></a><br><sub>支持多种编程智能体的自托管协作平台。</sub></td>
+<td align="center"><a href="https://github.com/Abilityai/trinity/stargazers">701</a></td>
+<td><img src="assets/languages/python.svg" alt="Python" height="20"></td>
+<td align="center"><a href="https://github.com/search?q=repo%3AAbilityai%2Ftrinity+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">1</a></td>
+</tr>
+</tbody>
+</table>
 
-- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** · 跨平台测试与 CI<br>
-  修复 Windows 隔离测试的子进程环境，补齐专项 CI 与回归覆盖。[#6439 ↗](https://github.com/bytedance/deer-flow/pull/6439)
+<details>
+<summary>展开其余 3 个项目 · 3 个已合并 PR</summary>
 
-- **[helsome/folio](https://github.com/helsome/folio)** · 数据源可靠性<br>
-  为 Provider 层加入有界重试、熔断与缓存降级，保留实际数据来源和失败路径。[#72 ↗](https://github.com/helsome/folio/pull/72)
+<table>
+<thead>
+<tr><th align="left" width="60%">贡献项目</th><th align="center">★</th><th align="left">主要语言</th><th align="center">已合并</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://avatars.githubusercontent.com/u/289881936?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/Cotal-AI/Cotal"><code>Cotal-AI/Cotal</code></a><br><sub>面向智能体协作的开放标准。</sub></td>
+<td align="center"><a href="https://github.com/Cotal-AI/Cotal/stargazers">359</a></td>
+<td><img src="assets/languages/typescript.svg" alt="TypeScript" height="20"></td>
+<td align="center"><a href="https://github.com/search?q=repo%3ACotal-AI%2FCotal+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">1</a></td>
+</tr>
+<tr>
+<td><img src="https://avatars.githubusercontent.com/u/157001337?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/helsome/folio"><code>helsome/folio</code></a><br><sub>本地优先的 AI 投资研究工作台。</sub></td>
+<td align="center"><a href="https://github.com/helsome/folio/stargazers">263</a></td>
+<td><img src="assets/languages/typescript.svg" alt="TypeScript" height="20"></td>
+<td align="center"><a href="https://github.com/search?q=repo%3Ahelsome%2Ffolio+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">1</a></td>
+</tr>
+<tr>
+<td><img src="https://avatars.githubusercontent.com/u/150799090?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/Digital-Process-Tools/claude-remember"><code>Digital-Process-Tools/claude-remember</code></a><br><sub>为 Claude Code 提供跨会话的持久记忆。</sub></td>
+<td align="center"><a href="https://github.com/Digital-Process-Tools/claude-remember/stargazers">202</a></td>
+<td><img src="assets/languages/python.svg" alt="Python" height="20"></td>
+<td align="center"><a href="https://github.com/search?q=repo%3ADigital-Process-Tools%2Fclaude-remember+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">1</a></td>
+</tr>
+</tbody>
+</table>
 
-- **[Q00/ouroboros](https://github.com/Q00/ouroboros)** · Agent 模型路由<br>
-  修复执行阶段的模型选择与配置优先级，兼容多个后端并补充回归测试。[#2462 ↗](https://github.com/Q00/ouroboros/pull/2462)
+</details>
 
-更多贡献：[Octop](https://github.com/TencentCloud/Octop/pull/824) · [rome](https://github.com/rome-os/rome/pull/457) · [trinity](https://github.com/Abilityai/trinity/pull/2752)
+<sub>8 个项目 · 10 个已合并 PR · 数据更新于 2026-10-26</sub>
 
-[All merged contributions →](https://github.com/search?q=is%3Apr+author%3Alouisss1016+is%3Amerged+-user%3Alouisss1016&type=pullrequests)
+[全部已合并记录 →](https://github.com/search?q=is%3Apr+author%3Alouisss1016+is%3Amerged+-user%3Alouisss1016&type=pullrequests)
