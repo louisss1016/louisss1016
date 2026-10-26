@@ -1,111 +1,102 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
-  <img alt="Louisss — build quietly, ship often." src="assets/profile-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/studio/cover-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/studio/cover-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/studio/cover-dark.svg">
+  <img src="assets/studio/cover-light.svg" alt="LOUISSS — Backend engineering. AI agent systems. Built with intent." width="100%">
 </picture>
-
-**Backend engineering · AI agents · Open source**
-
-我是 Louisss，专注 Java / Python 后端与 AI Agent 工程化。把重复的事做成工具，把真实的问题修进开源。
-
-[我的作品](#selected-work) ↗ &nbsp; / &nbsp; [开源足迹](#open-source) ↗ &nbsp; / &nbsp; [玩一道 Debug 题](#debug-lab) ↗
-
-### Selected work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<sub>01 / FIND THE RIGHT PROBLEM</sub>
-<h3><a href="https://github.com/louisss1016/contrib-radar">Contrib Radar ↗</a></h3>
-<p>找到值得投入的开源贡献：发现项目、筛选 Issue、检查冲突，持续跟进 PR。</p>
-<p><code>Python</code> <code>Agent Skill</code></p>
-<a href="https://github.com/louisss1016/contrib-radar#readme">探索项目 →</a>
-</td>
-<td width="50%" valign="top">
-<sub>02 / BUILD WITH A PLAN</sub>
-<h3><a href="https://github.com/louisss1016/vibecoding-navigator">Vibecoding Navigator ↗</a></h3>
-<p>给 AI 编程一条清晰路线：从需求拆解、分步实现，到验收与上线。</p>
-<p><code>Agent Workflow</code> <code>Developer Tools</code></p>
-<a href="https://github.com/louisss1016/vibecoding-navigator/blob/main/docs/quickstart.md">跟着做一个项目 →</a>
-</td>
-</tr>
-</table>
-
-### Open source
-
-一些已经合并的小修复，让工具在真实使用中更可靠。
-
-| Project | What I fixed | Patch |
-| :-- | :-- | :-- |
-| **deer-flow** | 补齐隔离测试子进程所需的 Windows 系统环境变量 | [↗ #6439](https://github.com/bytedance/deer-flow/pull/6439) |
-| **Octop** | 修复 Ollama 云端服务被误判为本地运行时的问题 | [↗ #824](https://github.com/TencentCloud/Octop/pull/824) |
-| **ouroboros** | 让 Execute 阶段的规划角色遵循指定的模型配置 | [↗ #2462](https://github.com/Q00/ouroboros/pull/2462) |
-
-[查看更多已合并的贡献 →](https://github.com/pulls?q=is%3Apr+author%3Alouisss1016+is%3Amerged)
-
-### Debug lab
-
-<details>
-<summary><b>支线任务 01：云端服务，怎么成了本地进程？</b> · 点击开始</summary>
 
 <br>
 
-你配置了 `https://ollama.com/v1`，界面却把它当成本地服务，甚至不让删除。
+**Java / Python 后端 · AI Agent 工程化 · 开源工具**<br>
+把重复的工作变成工具，把真实的问题修进开源。
 
-线索只有一行。你会先改哪里？
+### 01 / Selected work
+
+<a href="https://github.com/louisss1016/contrib-radar">
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/studio/radar-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/studio/radar-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/studio/radar-dark.svg">
+  <img src="assets/studio/radar-light.svg" alt="Contrib Radar — 发现项目、评估 Issue、检查冲突并跟进贡献。点击查看项目。" width="100%">
+</picture>
+</a>
+
+发现值得投入的开源项目，评估 Issue 与冲突风险，持续跟进 PR。
+
+<a href="https://github.com/louisss1016/vibecoding-navigator">
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/studio/navigator-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/studio/navigator-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/studio/navigator-dark.svg">
+  <img src="assets/studio/navigator-light.svg" alt="Vibecoding Navigator — 从需求拆解到实现、验证与上线的 Agent 工作流。点击查看项目。" width="100%">
+</picture>
+</a>
+
+让 AI 编程有清晰的推进路径：需求拆解 → 实现 → 验证 → 上线。
+
+<br>
+
+### 02 / Selected contributions
+
+**[deer-flow](https://github.com/bytedance/deer-flow/pull/6439)** &nbsp; / &nbsp; Windows 测试环境修复<br>
+<sub>让隔离测试子进程获得必需的系统环境变量。 · MERGED #6439</sub>
+
+**[Octop](https://github.com/TencentCloud/Octop/pull/824)** &nbsp; / &nbsp; 云端与本地服务识别<br>
+<sub>修复 Ollama 云端地址被误判为本地运行时。 · MERGED #824</sub>
+
+**[ouroboros](https://github.com/Q00/ouroboros/pull/2462)** &nbsp; / &nbsp; Agent 模型配置修复<br>
+<sub>让 Execute 阶段的规划角色遵循指定模型。 · MERGED #2462</sub>
+
+[All merged contributions ↗](https://github.com/pulls?q=is%3Apr+author%3Alouisss1016+is%3Amerged)
+
+<br>
+
+### 03 / Beyond the surface
+
+<details>
+<summary><b>The loop</b> &nbsp; / &nbsp; 封面线环是怎么画出来的？</summary>
+
+<br>
+
+它是一组环面的参数曲线，经三维旋转和投影后绘成 SVG。远处的线更暗，近处的线更亮，形成有深度的轮廓。
+
+```text
+x = (R + r cos v) cos u
+y = (R + r cos v) sin u
+z = r sin v
+```
+
+两个角度，一条闭环。和做工具一样：构建、验证、改进，再来一轮。
+
+[打开绘制源码 ↗](https://github.com/louisss1016/louisss1016/blob/main/scripts/render_profile.py)
+
+</details>
+
+<details>
+<summary><b>Debug room</b> &nbsp; / &nbsp; 找出一行代码里的边界问题</summary>
+
+<br>
+
+一个真实的修复现场：配置了 `https://ollama.com/v1`，却被当成本地服务，甚至无法删除。
 
 ```python
 is_local = "11434" in url or "ollama" in url
 ```
 
 <details>
-<summary>A / 把连接超时时间调大一点</summary>
+<summary>找到问题了？展开对照修复思路</summary>
 
-超时时间解决不了身份误判。网络请求还没开始，程序已经把云端服务分到了本地分支。
+服务名称不能证明部署位置：`ollama.com` 同样包含 `ollama`。
 
-**再看一眼：判断依据是地址，还是地址里的某个单词？**
+修复细化了地址判断，覆盖本地地址、已知本地主机名和默认端口，并补充本地与云端 URL 测试。
 
-</details>
-
-<details>
-<summary>B / 检查地址是否真指向本地，而不是只匹配服务名称</summary>
-
-**找到了。** `ollama.com` 也包含 `ollama`，所以这个条件会把官方云端地址判成本地服务。
-
-这次修复把判断细化到本地地址、已知本地主机名和默认端口，并添加本地与云端 URL 用例。
-
-这是我在 Octop 修过的真实问题：[查看已合并的补丁 #824 →](https://github.com/TencentCloud/Octop/pull/824)
-
-**通关心得：名称相同，不代表部署位置相同。**
+[查看已合并的真实补丁 ↗](https://github.com/TencentCloud/Octop/pull/824)
 
 </details>
-
-<details>
-<summary>C / 先把删除按钮解锁</summary>
-
-这能绕过一个表象，但服务分类仍然错误，其他依赖分类的行为还会出问题。
-
-**试试沿着错误结果，往上找最早做出判断的地方。**
-
-</details>
-
-</details>
-
-<details>
-<summary><b>隐藏抽屉：用字符看看我的贡献记录</b></summary>
-
-<br>
-
-保留一点终端情结。下面是 GitHub 贡献日历的字符版本，由仓库工作流每日生成。
-
-<img src="dist/ascii-contrib.svg" alt="Louisss 的 GitHub 贡献日历，以 ASCII 字符表示每日活跃程度" width="100%">
-
-[查看生成记录 →](https://github.com/louisss1016/louisss1016/actions/workflows/contrib-ascii.yml)
-
 </details>
 
 <br>
 
 ---
 
-<sub>Small tools. Real fixes. &nbsp; · &nbsp; build quietly, ship often.</sub>
+<sub>LOUISSS &nbsp; / &nbsp; Build quietly. Ship often.</sub>
