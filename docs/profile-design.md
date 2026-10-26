@@ -1,4 +1,18 @@
-# Profile artwork
+# Profile design
+
+## Current layout
+
+The current README uses native GitHub typography: a short introduction, three concise merged contribution entries with direct PR evidence, and a compact row of further contributions. It has no image dependencies, wide tables, custom type, or expandable sections. GitHub controls wrapping and light/dark appearance.
+
+Reference profiles reviewed on 2026-10-26:
+
+- [MagicCube](https://github.com/MagicCube): concise identity and native pinned repositories.
+- [AnnaSuSu](https://github.com/AnnaSuSu): specific contribution summaries with primary evidence links; the main structural reference.
+- [LofiSu](https://github.com/LofiSu): compact professional experience and open-source history.
+
+Only information verified for louisss1016 is used; reference authors' credentials are not copied. The old artwork below is retained as an archive and is no longer embedded in the README.
+
+## Archived artwork
 
 The second design uses an editorial layout: large outlined lettering, charcoal and warm white surfaces, a restrained vermilion accent, and geometric illustrations related to each project's purpose.
 
