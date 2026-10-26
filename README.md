@@ -7,7 +7,7 @@
 
 <table>
 <thead>
-<tr><th align="left" width="60%">贡献项目</th><th align="center">★</th><th align="left">主要语言</th><th align="center">已合并</th></tr>
+<tr><th align="left" width="545">贡献项目</th><th align="center" width="80">★</th><th align="left" width="120">主要语言</th><th align="center" width="80">已合并</th></tr>
 </thead>
 <tbody>
 <tr>
@@ -48,7 +48,7 @@
 
 <table>
 <thead>
-<tr><th align="left" width="60%">贡献项目</th><th align="center">★</th><th align="left">主要语言</th><th align="center">已合并</th></tr>
+<tr><th align="left" width="545">贡献项目</th><th align="center" width="80">★</th><th align="left" width="120">主要语言</th><th align="center" width="80">已合并</th></tr>
 </thead>
 <tbody>
 <tr>
