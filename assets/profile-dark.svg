@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="title desc">
+  <title id="title">LOUISSS</title>
+  <desc id="desc">A minimal blue cover with an orbital motif. Build quietly, ship often.</desc>
+  <rect width="900" height="250" rx="12" fill="#111820"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="34" y="30" width="6" height="6" rx="1" fill="#8dc4f2"/>
+    <text x="51" y="39" fill="#a8b9ca" font-size="12" letter-spacing="2">A DEVELOPER'S WORKBENCH</text>
+    <text x="32" y="143" fill="#edf3fa" font-size="88" font-weight="700" letter-spacing="-5">LOUISSS<tspan fill="#8dc4f2">.</tspan></text>
+    <text x="36" y="178" fill="#b8c7d8" font-size="18">build quietly, ship often.</text>
+    <path d="M36 208H864" stroke="#2a3948"/>
+    <text x="36" y="232" fill="#a8b9ca" font-size="11" letter-spacing="1.6">EXPLORE</text>
+    <path d="M112 228h24m-4-3 4 3-4 3" fill="none" stroke="#6d91b2"/>
+    <text x="151" y="232" fill="#a8b9ca" font-size="11" letter-spacing="1.6">BUILD</text>
+    <path d="M206 228h24m-4-3 4 3-4 3" fill="none" stroke="#6d91b2"/>
+    <text x="246" y="232" fill="#8dc4f2" font-size="11" letter-spacing="1.6">SHIP</text>
+    <text x="864" y="232" text-anchor="end" fill="#a8b9ca" font-size="11" letter-spacing="1.2">LOUISSS / OPEN SOURCE</text>
+  </g>
+  <g transform="translate(746 111)" fill="none">
+    <circle r="68" stroke="#2a3c4f"/>
+    <circle r="43" stroke="#2a3c4f" stroke-dasharray="2 6"/>
+    <ellipse rx="100" ry="31" transform="rotate(-35)" stroke="#78b4e6" stroke-width="1.5"/>
+    <path d="M-12 0H12M0-12V12" stroke="#b4d8f5" stroke-width="2"/>
+    <circle cx="68" cy="-50" r="5" fill="#b4d8f5" stroke="#111820" stroke-width="3"/>
+    <circle cx="-54" cy="41" r="4" fill="#78b4e6"/>
+    <path d="M-91-73h12m-6-6v12M81 69h12m-6-6v12" stroke="#4d6983"/>
+  </g>
+</svg>
