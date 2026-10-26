@@ -2,7 +2,7 @@
 
 ## Current layout
 
-The current README keeps a short introduction and uses a compact native GitHub table for contributions, following the user's supplied reference. Rows contain the repository owner's avatar, a short project description, repository stars, primary language, and the author's merged upstream PR count. Five repositories are visible, sorted by stars; the remaining three are inside a native disclosure. Language badges are local SVG assets from Shields.io; repository avatars are served by GitHub.
+The current README keeps a short introduction and uses a compact native GitHub table for contributions, following the user's supplied reference. Rows contain the repository owner's avatar, a short project description, repository stars, primary language, and the author's merged upstream PR count. Only repositories with at least 10,000 stars are featured: deer-flow and Octop. The remaining six projects (seven merged PRs) are inside a native disclosure. Language badges are local SVG assets from Shields.io; repository avatars are served by GitHub.
 
 Data was verified on 2026-10-26 using GitHub search (`is:pr author:louisss1016 is:merged -user:louisss1016`) and repository metadata: 10 merged PRs across 8 external repositories. Counts link to the matching per-repository search. The README displays its snapshot date; stars represent each repository's popularity, while the merged column represents this author's contributions. The supplied example's counts were not copied.
 

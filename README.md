@@ -22,6 +22,17 @@
 <td><img src="assets/languages/python.svg" alt="Python" height="20"></td>
 <td align="center"><a href="https://github.com/search?q=repo%3ATencentCloud%2FOctop+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">2</a></td>
 </tr>
+</tbody>
+</table>
+
+<details>
+<summary>展开其他贡献 · 6 个项目 / 7 个已合并 PR</summary>
+
+<table>
+<thead>
+<tr><th align="left" width="545">贡献项目</th><th align="center" width="80">★</th><th align="left" width="120">主要语言</th><th align="center" width="80">已合并</th></tr>
+</thead>
+<tbody>
 <tr>
 <td><img src="https://avatars.githubusercontent.com/u/31264094?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/Q00/ouroboros"><code>Q00/ouroboros</code></a><br><sub>支持多种编程智能体运行时的 Agent OS。</sub></td>
 <td align="center"><a href="https://github.com/Q00/ouroboros/stargazers">6.3k</a></td>
@@ -40,17 +51,6 @@
 <td><img src="assets/languages/python.svg" alt="Python" height="20"></td>
 <td align="center"><a href="https://github.com/search?q=repo%3AAbilityai%2Ftrinity+is%3Apr+author%3Alouisss1016+is%3Amerged&amp;type=pullrequests">1</a></td>
 </tr>
-</tbody>
-</table>
-
-<details>
-<summary>展开其余 3 个项目 · 3 个已合并 PR</summary>
-
-<table>
-<thead>
-<tr><th align="left" width="545">贡献项目</th><th align="center" width="80">★</th><th align="left" width="120">主要语言</th><th align="center" width="80">已合并</th></tr>
-</thead>
-<tbody>
 <tr>
 <td><img src="https://avatars.githubusercontent.com/u/289881936?v=4&amp;s=56" width="28" height="28" alt="">&nbsp; <a href="https://github.com/Cotal-AI/Cotal"><code>Cotal-AI/Cotal</code></a><br><sub>面向智能体协作的开放标准。</sub></td>
 <td align="center"><a href="https://github.com/Cotal-AI/Cotal/stargazers">359</a></td>
